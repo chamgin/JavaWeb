@@ -1,9 +1,18 @@
 package org.chamgin.framework;
 
+import org.apache.commons.lang3.ArrayUtils;
+import org.apache.commons.lang3.StringUtils;
+import org.chamgin.framework.bean.Data;
 import org.chamgin.framework.bean.Handler;
+import org.chamgin.framework.bean.Param;
+import org.chamgin.framework.bean.View;
 import org.chamgin.framework.helper.BeanHelper;
 import org.chamgin.framework.helper.ConfigHelper;
 import org.chamgin.framework.helper.ControllerHelper;
+import org.chamgin.framework.util.CodeUtil;
+import org.chamgin.framework.util.JsonUtil;
+import org.chamgin.framework.util.ReflectionUtil;
+import org.chamgin.framework.util.StreamUtil;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletContext;
@@ -14,6 +23,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.io.PrintWriter;
+import java.lang.reflect.Method;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Map;
@@ -46,6 +57,51 @@ public class DispatcherServlet extends HttpServlet {
                 paramMap.put(paramName, paramValue);
             }
             String body = CodeUtil.decodeURL(StreamUtil.getString(req.getInputStream()));
+            if(StringUtils.isNotEmpty(body)) {
+                String[] params = body.split("&");
+                if(ArrayUtils.isNotEmpty(params)) {
+                    for(String param : params) {
+                        String[] val = param.split("=");
+                        if(ArrayUtils.isNotEmpty(val) && val.length == 2) {
+                            String paramName = val[0];
+                            String paramValue = val[1];
+                            paramMap.put(paramName, paramValue);
+                        }
+                    }
+                }
+            }
+            Param param = new Param(paramMap);
+            Method actionMethod = handler.getActionMethod();
+            Object result = ReflectionUtil.invokeMethod(controllerBean, actionMethod, param);
+
+            //action返回值
+            if(result instanceof View) {
+                View view = (View)result;
+                String path = view.getPath();
+                if(StringUtils.isNotEmpty(path)) {
+                    if(path.startsWith("/")) {
+                        resp.sendRedirect(req.getContextPath() + path);
+                    } else {
+                        Map<String, Object> model = view.getModel();
+                        for(Map.Entry<String, Object> entry : model.entrySet()) {
+                            req.setAttribute(entry.getKey(), entry.getValue());
+                        }
+                        req.getRequestDispatcher(ConfigHelper.getAppJspPath() + path).forward(req, resp);
+                    }
+                }
+            } else if(result instanceof Data) {
+                Data data = (Data) result;
+                Object model = data.getModel();
+                if(model != null) {
+                    resp.setContentType("application/json");
+                    resp.setCharacterEncoding("UTF-8");
+                    PrintWriter writer = resp.getWriter();
+                    String json = JsonUtil.toJson(model);
+                    writer.write(json);
+                    writer.flush();
+                    writer.close();
+                }
+            }
         }
     }
 }
