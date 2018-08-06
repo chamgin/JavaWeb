@@ -1,17 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="chapter3:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7c6c1564-b614-4129-9da2-3e5dd2180324" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chamgin/framework/util/CodeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chamgin/framework/util/JsonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chamgin/framework/util/StreamUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/smart-framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/smart-framework.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smartframework.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chamgin/framework/DispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chamgin/framework/DispatcherServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chamgin/framework/HelperLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chamgin/framework/HelperLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chamgin/framework/helper/BeanHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chamgin/framework/helper/BeanHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chamgin/framework/helper/ClassHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chamgin/framework/helper/ClassHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chamgin/framework/util/ClassUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chamgin/framework/util/ClassUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chamgin/framework/ConfigConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chamgin/framework/ConfigConstant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chamgin/framework/DispatcherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chamgin/framework/DispatcherServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chamgin/framework/HelperLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chamgin/framework/HelperLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chamgin/framework/annotation/Action.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chamgin/framework/annotation/Action.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chamgin/framework/annotation/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chamgin/framework/annotation/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chamgin/framework/annotation/Inject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chamgin/framework/annotation/Inject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chamgin/framework/annotation/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chamgin/framework/annotation/Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chamgin/framework/bean/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chamgin/framework/bean/Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chamgin/framework/bean/Handler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chamgin/framework/bean/Handler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chamgin/framework/bean/Param.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chamgin/framework/bean/Param.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chamgin/framework/bean/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chamgin/framework/bean/Request.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chamgin/framework/bean/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chamgin/framework/bean/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chamgin/framework/helper/BeanHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chamgin/framework/helper/BeanHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chamgin/framework/helper/ClassHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chamgin/framework/helper/ClassHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chamgin/framework/helper/ConfigHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chamgin/framework/helper/ConfigHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chamgin/framework/helper/ControllerHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chamgin/framework/helper/ControllerHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chamgin/framework/helper/IocHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chamgin/framework/helper/IocHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chamgin/framework/util/CastUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chamgin/framework/util/CastUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chamgin/framework/util/ClassUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chamgin/framework/util/ClassUtil$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chamgin/framework/util/ClassUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chamgin/framework/util/ClassUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chamgin/framework/util/CodeUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chamgin/framework/util/CodeUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chamgin/framework/util/JsonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chamgin/framework/util/JsonUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chamgin/framework/util/PropsUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chamgin/framework/util/PropsUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chamgin/framework/util/ReflectionUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chamgin/framework/util/ReflectionUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chamgin/framework/util/StreamUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chamgin/framework/util/StreamUtil.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,75 +59,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DispatcherServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/DispatcherServlet.java">
+      <file leaf-file-name="TestJava.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../TestJava/src/TestJava.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="210">
+              <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PropsUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/util/PropsUtil.java">
+      <file leaf-file-name="Sequence.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../TestJava/src/Sequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-              <folding>
-                <element signature="e#1195#1196#0" expanded="true" />
-                <element signature="e#1243#1244#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassHelper.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/helper/ClassHelper.java">
+      <file leaf-file-name="ClientThread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../TestJava/src/ClientThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcreteClassInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../TestJava/src/ConcreteClassInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Data.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/bean/Data.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsonUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/util/JsonUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StreamUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/util/StreamUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CodeUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/util/CodeUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,10 +103,25 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>base_package</find>
+      <find>loadClass</find>
+      <find>Proxy</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/../chapter3</dir>
+      <dir>$PROJECT_DIR$/src/main/java/org/chamgin/framework/helper</dir>
+      <dir>$PROJECT_DIR$/../chapter3/src/main/java/org/chamgin/chapter3</dir>
+      <dir>$PROJECT_DIR$/../chapter3/src/main/java</dir>
+      <dir>$PROJECT_DIR$/src/main/java/org/chamgin/framework</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -121,10 +129,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../chapter2/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../chapter3/pom.xml" />
-        <option value="$PROJECT_DIR$/../chapter3/src/main/resources/smart.properties" />
         <option value="$PROJECT_DIR$/src/main/java/org/chamgin/framework/ConfigConstant.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/chamgin/framework/util/PropsUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/chamgin/framework/util/CastUtil.java" />
@@ -134,6 +139,32 @@
         <option value="$PROJECT_DIR$/src/main/java/org/chamgin/framework/util/CodeUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/chamgin/framework/util/JsonUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/chamgin/framework/DispatcherServlet.java" />
+        <option value="$PROJECT_DIR$/../chapter3/src/main/java/org/chamgin/chapter3/model/Customer.java" />
+        <option value="$PROJECT_DIR$/../chapter3/src/main/java/org/chamgin/chapter3/util/CollectionUtil.java" />
+        <option value="$PROJECT_DIR$/../chapter3/src/main/java/org/chamgin/chapter3/util/CastUtil.java" />
+        <option value="$PROJECT_DIR$/../chapter3/src/main/java/org/chamgin/chapter3/controller/CustomerController.java" />
+        <option value="$PROJECT_DIR$/../chapter3/src/main/java/org/chamgin/chapter3/helper/DatabaseHelper.java" />
+        <option value="$PROJECT_DIR$/../chapter3/src/test/java/org/chamgin/chapter3/test/CustomerServiceTest.java" />
+        <option value="$PROJECT_DIR$/../chapter3/src/main/resources/smart.properties" />
+        <option value="$PROJECT_DIR$/../chapter3/src/main/java/org/chamgin/chapter3/service/CustomerService.java" />
+        <option value="$PROJECT_DIR$/../TestJava/src/ConcreteClassNoInterface.java" />
+        <option value="$PROJECT_DIR$/../chapter2/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestJava/src/ConcreteClassInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/chamgin/framework/annotation/Aspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/chamgin/framework/proxy/Proxy.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/chamgin/framework/proxy/ProxyChain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/chamgin/framework/proxy/ProxyManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/chamgin/framework/helper/BeanHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/chamgin/framework/helper/ClassHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/chamgin/framework/proxy/AspectProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/chamgin/framework/helper/AopHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/chamgin/framework/HelperLoader.java" />
+        <option value="$PROJECT_DIR$/../chapter3/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/../chapter3/src/main/java/org/chamgin/chapter3/aop/ControllerAspect.java" />
+        <option value="$PROJECT_DIR$/../TestJava/src/Sequence.java" />
+        <option value="$PROJECT_DIR$/../TestJava/src/ClientThread.java" />
+        <option value="$PROJECT_DIR$/../TestJava/src/TestJava.java" />
       </list>
     </option>
   </component>
@@ -143,24 +174,16 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="smart-framework" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="smart-framework" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="smart-framework" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -168,88 +191,33 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="411" />
-    <option name="y" value="51" />
-    <option name="width" value="1257" />
-    <option name="height" value="921" />
+    <option name="x" value="2" />
+    <option name="y" value="112" />
+    <option name="width" value="1904" />
+    <option name="height" value="879" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="smartframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smartframework" type="462c0819:PsiDirectoryNode" />
+              <item name="TestJava" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smartframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smartframework" type="462c0819:PsiDirectoryNode" />
+              <item name="TestJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smartframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smartframework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smartframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smartframework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smartframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smartframework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smartframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smartframework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smartframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smartframework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smartframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smartframework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="helper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smartframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smartframework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -260,17 +228,26 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chapter3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cloud-cglib.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.chamgin.chapter3.util" />
+      <recent name="org.chamgin.chapter3.helper" />
+      <recent name="org.chamgin.chapter3.model" />
+      <recent name="org.chamgin.chapter3.service" />
       <recent name="org.chamgin.framework.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../chapter3/src/main/resources" />
+      <recent name="$PROJECT_DIR$/../chapter3/src/main/java/org/chamgin/chapter3/util" />
+      <recent name="$PROJECT_DIR$/../chapter3/src/main/webapp/WEB-INF/view" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -285,9 +262,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TestJava">
+    <configuration name="TestJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestJava" />
+      <module name="TestJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="CustomerServiceTest.getCustomerListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.chamgin.chapter3.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.chamgin.chapter3.test" />
+      <option name="MAIN_CLASS_NAME" value="org.chamgin.chapter3.test.CustomerServiceTest" />
+      <option name="METHOD_NAME" value="getCustomerListTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -327,6 +332,89 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="chapter3" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.10" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="chapter3:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_smartframework" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="34093" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="chapter3:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.chapter3" />
+      <item itemvalue="JUnit.CustomerServiceTest.getCustomerListTest" />
+      <item itemvalue="Application.TestJava" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestJava" />
+        <item itemvalue="JUnit.CustomerServiceTest.getCustomerListTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -342,44 +430,63 @@
       <workItem from="1532825194806" duration="2331000" />
       <workItem from="1532903107583" duration="3845000" />
       <workItem from="1533308302454" duration="2002000" />
-      <workItem from="1533337186129" duration="844000" />
+      <workItem from="1533337186129" duration="6754000" />
+      <workItem from="1533387072495" duration="4817000" />
+      <workItem from="1533427194110" duration="10515000" />
+      <workItem from="1533452574136" duration="7312000" />
+      <workItem from="1533481723438" duration="2512000" />
+      <workItem from="1533509889004" duration="1080000" />
+      <workItem from="1533562628604" duration="1520000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="CustomerServiceTest_getCustomerListTest - 2018.08.04 at 09h 50m 50s.xml">
+      <configuration name="CustomerServiceTest.getCustomerListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerServiceTest_getCustomerListTest - 2018.08.04 at 09h 51m 41s.xml">
+      <configuration name="CustomerServiceTest.getCustomerListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerServiceTest_getCustomerListTest - 2018.08.04 at 09h 56m 20s.xml">
+      <configuration name="CustomerServiceTest.getCustomerListTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11963000" />
+    <option name="totallyTimeSpent" value="45629000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="411" y="51" width="1257" height="921" extended-state="0" />
+    <frame x="2" y="112" width="1904" height="879" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.20709631" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003358" side_tool="true" weight="0.3411017" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32894737" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.12698413" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32944915" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49966422" weight="0.5012987" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.23389022" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.15493697" />
+      <window_info id="Web" order="2" sideWeight="0.50149703" side_tool="true" weight="0.17122889" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Web" order="2" sideWeight="0.50149703" side_tool="true" weight="0.17122889" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5038961" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.23506494" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -389,255 +496,32 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="18" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/bean/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/util/JsonUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/util/StreamUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/util/CodeUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/util/PropsUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
-          <folding>
-            <element signature="e#1195#1196#0" expanded="true" />
-            <element signature="e#1243#1244#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/util/JsonUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/util/StreamUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/util/CodeUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/ConfigConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/helper/ConfigHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/util/ClassUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chapter3/src/main/resources/smart.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/ConfigConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/helper/ConfigHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/util/ClassUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chapter3/src/main/resources/smart.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chapter2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="84" column="21" selection-start-line="72" selection-start-column="8" selection-end-line="84" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter3/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/../chapter2/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chapter3/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chapter2/src/main/java/org/demo/chapter2/util/PropsUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="63" column="28" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/util/CastUtil.java">
+    <entry file="file://$PROJECT_DIR$/../chapter3/src/main/java/org/chamgin/chapter3/model/Customer.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../chapter3/src/main/resources/smart.properties">
+    <entry file="file://$PROJECT_DIR$/../chapter3/src/main/java/org/chamgin/chapter3/util/CollectionUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/local/jvm/jdk1.8.0_181/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="967" column="18" selection-start-line="967" selection-start-column="18" selection-end-line="967" selection-end-column="18" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../chapter3/src/main/java/org/chamgin/chapter3/util/CastUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../chapter3/src/main/java/org/chamgin/chapter3/util/PropsUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/util/ClassUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/helper/ConfigHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/ConfigConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/util/CodeUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/util/JsonUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -648,45 +532,349 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/bean/Data.java">
+    <entry file="file://$PROJECT_DIR$/../chapter3/src/main/webapp/WEB-INF/view/customer.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="-315" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chapter2/src/test/java/org/demo/chapter2/test/CustomerServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/util/StreamUtil.java">
+    <entry file="file://$PROJECT_DIR$/../chapter2/src/test/resources/sql/customer_init.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chapter3/src/test/java/org/chamgin/chapter3/test/CustomerServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        <state relative-caret-position="315">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chapter2/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chapter3/src/main/resources/smart.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/ConfigConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar!/org/slf4j/impl/Log4jLoggerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="215" selection-start-line="215" selection-end-line="215" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chapter3/src/main/java/org/chamgin/chapter3/helper/DatabaseHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chapter3/src/main/java/org/chamgin/chapter3/service/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/util/ReflectionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar!/org/apache/commons/lang3/ArrayUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="1599" selection-start-line="1599" selection-end-line="1599" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/helper/IocHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestJava/src/ClassStatic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/org.demo:chapter2:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>org.demo:chapter2:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">org.demo:chapter2:1.0-SNAPSHOT</node>
+            <node x="" y="">javax.servlet:javax.servlet-api:jar:3.1.0</node>
+            <node x="" y="">javax.servlet.jsp:jsp-api:jar:2.2</node>
+            <node x="" y="">javax.servlet:jstl:jar:1.2</node>
+            <node x="" y="">junit:junit:jar:4.11</node>
+            <node x="" y="">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.7.7</node>
+            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.7.7/org.slf4j:slf4j-api:jar:1.7.7</node>
+            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.7.7/log4j:log4j:jar:1.2.17</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:8.0.11</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:8.0.11/com.google.protobuf:protobuf-java:jar:2.6.0</node>
+            <node x="" y="">org.apache.commons:commons-lang3:jar:3.3.2</node>
+            <node x="" y="">org.apache.commons:commons-collections4:jar:4.0</node>
+            <node x="" y="">commons-dbutils:commons-dbutils:jar:1.6</node>
+            <node x="" y="">org.apache.commons:commons-dbcp2:jar:2.0.1</node>
+            <node x="" y="">org.apache.commons:commons-dbcp2:jar:2.0.1/org.apache.commons:commons-pool2:jar:2.2</node>
+            <node x="" y="">org.apache.commons:commons-dbcp2:jar:2.0.1/commons-logging:commons-logging:jar:1.1.3</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.375975975975976" x="628.0" y="-45.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chapter2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestJava/src/ConcreteClassNoInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/annotation/Aspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chapter3/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chapter2/$(user.home)/logs/book.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="74" lean-forward="true" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chapter2/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chapter2/src/test/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chapter2/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chapter3/src/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="939">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chapter3/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7-sources.jar!/org/slf4j/impl/Log4jLoggerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="209" selection-start-line="209" selection-end-line="209" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/proxy/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestJava/src/ConcreteClassInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/DispatcherServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/helper/ControllerHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="60">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/util/PropsUtil.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/cglib/cglib/2.2.2/cglib-2.2.2.jar!/net/sf/cglib/proxy/MethodProxy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        <state relative-caret-position="71">
+          <caret line="113" column="9" lean-forward="true" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chapter3/src/main/java/org/chamgin/chapter3/controller/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
-            <element signature="e#1195#1196#0" expanded="true" />
-            <element signature="e#1243#1244#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/cglib/cglib/2.2.2/cglib-2.2.2.jar!/net/sf/cglib/proxy/Enhancer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="410" selection-start-line="410" selection-end-line="410" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestJava/src/Sequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestJava/src/ClientThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestJava/src/TestJava.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/util/ClassUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chapter3/src/main/java/org/chamgin/chapter3/aop/ControllerAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/HelperLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/proxy/AspectProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/helper/BeanHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/helper/ClassHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="285">
+          <caret line="45" column="24" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/proxy/ProxyChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/helper/AopHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/chamgin/framework/proxy/ProxyManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -696,11 +884,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>chapter2:war</last-edited>
+          <last-edited>chapter3:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -708,7 +897,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -743,7 +932,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>smart-framework</last-edited>
+          <last-edited>chapter3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

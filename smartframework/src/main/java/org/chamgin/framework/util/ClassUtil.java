@@ -67,7 +67,7 @@ public final class ClassUtil {
         }
     }
     private static void doAddClass(Set<Class<?>> classSet, String className) {
-        Class<?> cls = loadClass(className, false);
+        Class<?> cls = loadClass(className, true);
         classSet.add(cls);
     }
     /*

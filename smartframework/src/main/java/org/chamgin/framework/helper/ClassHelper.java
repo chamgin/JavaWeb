@@ -4,6 +4,7 @@ import org.chamgin.framework.annotation.Controller;
 import org.chamgin.framework.annotation.Service;
 import org.chamgin.framework.util.ClassUtil;
 
+import java.lang.annotation.Annotation;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -42,6 +43,28 @@ public final class ClassHelper {
         Set<Class<?>> classSet = new HashSet<Class<?>>();
         classSet.addAll(getServiceClassSet());
         classSet.addAll(getControllerClassSet());
+        return classSet;
+    }
+
+    //获取包名下某类的所有子类
+    public static Set<Class<?>> getClassSetBySuper(Class<?> superClass) {
+        Set<Class<?>> classSet = new HashSet<>();
+        for(Class<?> cls : CLASS_SET) {
+            if(superClass.isAssignableFrom(cls) && !superClass.equals(cls)) {
+                classSet.add(cls);
+            }
+        }
+        return classSet;
+    }
+
+    //获取包名下带有某注解的所有类
+    public static Set<Class<?>> getClassSetByAnnotation(Class<? extends Annotation> annotationClass) {
+        Set<Class<?>> classSet = new HashSet<>();
+        for(Class<?> cls : CLASS_SET) {
+            if(cls.isAnnotationPresent(annotationClass)) {
+                classSet.add(cls);
+            }
+        }
         return classSet;
     }
 }
